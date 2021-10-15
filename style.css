@@ -8,7 +8,7 @@ html, body {
 }
 
 .full-screen-container {
-  background-image: url(/products/Login/img/marek-piwnicki-RyUDV0qyfwQ-unsplash.jpg);
+  background-image: url(marek-piwnicki-RyUDV0qyfwQ-unsplash.jpg);
   height:100vh;
   width:100vw;
   background-size: cover;
