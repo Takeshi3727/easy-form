@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+  margin:0;
+}
+
+.full-screen-container {
+  background-image: url(/products/Login/img/marek-piwnicki-RyUDV0qyfwQ-unsplash.jpg);
+  height:100vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px 30px;
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom:20px;
+
+}
+
+.input-group label{
+  color:#fff;
+  font-weight: lighter;
+  font-size:1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  font-size:1.5em;
+  padding: .1em .25em;
+  background-color: rgba(185, 170, 170, 0.5);
+  border:1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  border-radius:5px;
+  font-weight: normal;
+}
+
+.input-group input:focus {
+  border: 1px solid rgba(64, 122, 238, 0.957);
+}
+
+.login-button {
+  padding:10px 30px;
+  width:100%;
+  border-radius:5px;
+  background-color: rgba(185, 170, 170, 0.2);
+  color:#fff;
+  border: 1px solid rgba(64, 122, 238, 0.957);
+  outline: none;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color:rgba(64, 122, 238, 0.2);
+}
+
+.login-button:focus {
+  background-color:rgba(64, 122, 238, 0.4);
+}
